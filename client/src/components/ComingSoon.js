@@ -12,9 +12,7 @@ const ComingSoon = () => {
 
   useEffect(() => {
     // Fetch company info from API
-    const apiUrl = process.env.NODE_ENV === 'production' 
-      ? '/api/info' 
-      : 'http://localhost:3019/api/info';
+    const apiUrl = process.env.REACT_APP_API_URL || '/api/info';
     
     fetch(apiUrl)
       .then(res => res.json())
