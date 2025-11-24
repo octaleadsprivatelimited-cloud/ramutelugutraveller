@@ -16,12 +16,14 @@ This guide will help you deploy the Holiday Hangout app to Vercel.
    - Import your Git repository
    - Vercel will auto-detect the configuration
 
-2. **Configure project settings:**
-   - **Framework Preset:** Other (or leave as auto-detect)
-   - **Root Directory:** Leave as default (root)
+2. **Configure project settings (IMPORTANT):**
+   - **Framework Preset:** Create React App (or "Other" if not available)
+   - **Root Directory:** `./` (root directory)
    - **Build Command:** `cd client && npm install && npm run build`
    - **Output Directory:** `client/build`
-   - **Install Command:** Leave as default
+   - **Install Command:** Leave as default (or `cd client && npm install` if needed)
+   
+   **Note:** These settings are required since `vercel.json` only handles routing, not build configuration.
 
 3. **Environment Variables:**
    - No environment variables are required for this project
