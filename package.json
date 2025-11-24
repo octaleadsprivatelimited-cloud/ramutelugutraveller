@@ -9,7 +9,7 @@
     "build": "cd client && npm install && npm run build"
   },
   "keywords": ["holiday", "hangout", "tours"],
-  "author": "Ravi Telugu Traveller",
+  "author": "Telugu Traveller Ramu",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",

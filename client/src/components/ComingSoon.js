@@ -5,7 +5,7 @@ import CountdownTimer from './CountdownTimer';
 const ComingSoon = () => {
   const [companyInfo, setCompanyInfo] = useState({
     companyName: 'Holiday Hangout',
-    founder: 'Ravi Telugu Traveller',
+    founder: 'Telugu Traveller Ramu',
     description: 'World Tours & Travel Experiences',
     launchDate: '2026-01-14T00:00:00'
   });

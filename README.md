@@ -1,6 +1,6 @@
 # Holiday Hangout - Coming Soon Landing Page
 
-A beautiful coming soon landing page for Holiday Hangout, a world tours company founded by Ravi Telugu Traveller.
+A beautiful coming soon landing page for Holiday Hangout, a world tours company founded by Telugu Traveller Ramu.
 
 ## Features
 
@@ -110,7 +110,7 @@ holiday-hangout/
 
 ## Founder
 
-**Ravi Telugu Traveller** - Founder of Holiday Hangout
+**Telugu Traveller Ramu** - Founder of Holiday Hangout
 
 ## License
 

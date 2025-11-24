@@ -24,7 +24,7 @@ module.exports = (req, res) => {
   // Return company info
   res.status(200).json({
     companyName: 'Holiday Hangout',
-    founder: 'Ravi Telugu Traveller',
+    founder: 'Telugu Traveller Ramu',
     description: 'World Tours & Travel Experiences',
     launchDate: '2026-01-14T00:00:00' // Launch date: January 14th, 2026
   });
